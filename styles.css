@@ -1,0 +1,40 @@
+#clk_body{
+    position: relative;
+    margin: auto;
+    background: url(clk.png) no-repeat;
+    background-size: 100%;
+    height: 40vw;
+    width: 40vw;
+}
+
+#hour, #min, #sec{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour{
+    
+    height: 21%;
+    width: 1.4%;
+    top: 30%;
+    left: 49.3%;
+    
+}
+
+#min{
+    
+    height: 41%;
+    width: 1%;
+    top: 10%;
+    left: 49.4%;
+}
+
+#sec{
+    
+    height: 41%;
+    width: 0.6%;
+    top: 10%;
+    left: 49.5%;
+}
